@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { useState } from 'react'
 import { downloadFile } from '../utils/downloadFile'
-import { API_URL } from '../constants'
+import { API_URL } from '../utils/constants'
 import type { ReactNode } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })

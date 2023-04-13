@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import ButtonDownload from '@/pages/components/ButtonDownload'
-import { API_URL } from './constants'
+import ButtonDownload from '../components/ButtonDownload'
+import { API_URL } from '../utils/constants'
 
 const inter = Inter({ subsets: ['latin'] })
 
